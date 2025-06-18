@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+/* Buttons */
+.btn, .btn-success {
+  background-color: #305BAB;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+.btn:hover,
+.btn-success:hover {
+  background-color: #abaab8;
+  color: white; 
+  border: none;
+}
+
+.btn-lg {
+  padding: 10px 20px;
+  font-size: 18px;
+  display: inline-flex;
+  margin: auto;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar.bg-dark {
+  background-color: #305BAB !important;
+  padding: 10px;
+  font-family: "Nunito", sans-serif;
+}
+
+.navbar .nav-link {
+  color: white;
+}
+
+.navbar .nav-link:hover {
+  color: #abaab8;
+}
+
+/* Headings */
+h1 {
+  font-family: "Roboto Flex", sans-serif;
+  color: #305BAB !important;
+  font-size: 45px;
+}
+h2 {
+    font-family: "Roboto Flex", sans-serif;
+    color: #305BAB !important;
+    font-size: 30px;
+  }
+
+/* Paragraphs */
+p, .lead {
+  font-family: "Nunito", sans-serif;
+  color: #000000;
+  font-size: 16px;
+}
