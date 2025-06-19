@@ -1,0 +1,81 @@
+.header {
+    background-image: url('banner.png');
+    background-size: stretch;
+    background-position: left;
+    padding: 30px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(110, 76, 17);
+    text-shadow: #333;
+}
+.sidebar {
+    background-color: #7c9f78;
+    color:#333;
+    text-align: center;
+    padding: 25px;
+    width: 200px; /* Set a fixed width for the sidebar */
+    position: fixed; /* Fix the sidebar to the left */
+    top: 0; /* Align it to the top */
+    right: 0; /* Align it to the left */
+    height: 100%; /* Full height */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+.sidebar-link {
+    display: block;
+    color: #f1f1f1;
+    padding: 10px;
+    text-decoration: underline;
+    text-align: left;   
+}
+
+.main-area {
+    margin: 0;
+    min-height: 100vh;
+    width: 100%; /* Ensure it spans the full width */
+    text-align: center; /* Ensure it covers the full height */
+    position: relative; /* Keep its position relative */
+    top: 30px; /* Push the container straight down */
+}
+h1, h2, p{
+    color: #333;
+    margin-right: 100px; /* Adjusted to account for the sidebar width */
+}
+.main_p {
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    margin-right: 100px; /* Adjusted to account for the sidebar width */
+}
+.small_p {
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px; /* Adjusted to account for the sidebar width */
+}
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    position: center; 
+    margin-right: 100px;
+    right: 0; /* Move the button all the way to the right */
+}
+
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color:#f1f1f1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
