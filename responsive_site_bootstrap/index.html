@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance City</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dance City</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="header text-center py-5">
+        <div class="container hero-container">
+            <h1>Welcome to Dance City</h1>
+            <p class="lead">Experience the best live music in town</p>
+            <a href="#events" class="btn btn-purple">View Events</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container about-container text-center">
+            <h2>About Us</h2>
+            <p class="lead">We are a premier music venue hosting live performances from top artists and bands. <br>
+                 Join us for an unforgettable experience!</p>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="py-5 bg-light">
+        <div class="container events-container">
+            <h2 class="text-center">Upcoming Events</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="event_1.jpg" class="card-img-top" alt="Event 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Event 1</h5>
+                            <p class="card-text">Join us for an amazing night of music.</p>
+                            <a href="#" class="btn btn-purple">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="event_3.jpg" class="card-img-top" alt="Event 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Event 2</h5>
+                            <p class="card-text">Don't miss this incredible performance.</p>
+                            <a href="#" class="btn btn-purple">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="event_2.jpg" class="card-img-top" alt="Event 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Event 3</h5>
+                            <p class="card-text">Experience live music like never before.</p>
+                            <a href="#" class="btn btn-purple">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container contact-container text-center">
+            <h2>Contact Us</h2>
+            <p class="lead">Have questions? Reach out to us!</p>
+            <form class="mt-4">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-purple">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2025 Dance City. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

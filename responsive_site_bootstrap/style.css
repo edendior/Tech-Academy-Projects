@@ -1,0 +1,39 @@
+.header {
+    background-image: url('lasers.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 5px 2px rgb(42, 40, 40);
+}
+
+.about-container {
+    color: rgb(28, 17, 17);
+    padding: 20px; /* Match padding with events-container */
+    border-radius: 10px;
+    font-family: 'Helvetica Neue', sans-serif;
+    max-width: 60%; /* Stretch to match events-container */
+    margin: auto;
+}
+
+.hero-container,
+.events-container,
+.contact-container {
+    background-color: rgba(61, 38, 76, 0.5); /* Customize per section if needed */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn-purple {
+    background-color: rgba(157, 2, 247, 0.8);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-purple:hover {
+    background-color: rgba(137, 0, 225, 0.9);
+}
