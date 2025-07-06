@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    /*gradient background for red rock feel*/
+    background: linear-gradient(to bottom,
+            #925a44 0%,
+            #a05c41 10%,
+            #c07b5e 25%,
+            #8c6e60 50%,
+            #7b4a3d 75%,
+            #5e3b2c 100%);
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/* NAV BAR */
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+}
+
+/* LOGO */
+.logo {
+    height: 100%;
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.permits {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+/* VIDEO */
+.banner video {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/* VIDEO HEADING */
+h1 {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    font-family: "Pridi", serif;
+    text-shadow: 2px 3px 2px black, -2px 0 2px black;
+
+    /* ANIMATION */
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-out forwards;
+    animation-delay: 0.5s;
+}
+
+/* keyframes */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate(-50%, 20px);
+        /* still keeps -50% for centering */
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+/*RED ROCK BACKGROUND AND TEXT CONTENT */
+.content {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom,
+            #9e6b57 0%,
+            #8c6e60 40%,
+            #7a5445 100%);
+}
+
+.content h2 {
+    color: #121010;
+    font-family: "Inter", sans-serif;
+}
+
+.content-box {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.content p {
+    color: #252323;
+    line-height: 1.6;
+    padding: 0 150px;
+    font-family: "Inter", sans-serif;
+}
